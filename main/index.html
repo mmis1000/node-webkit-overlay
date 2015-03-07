@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    
+    <link rel="stylesheet" href="prepare.css">
+
+    <script src="prepare.js"></script>
+    
+    <!-- debug session -->
+    <script>
+      /* enable debug tool */
+      require('nw.gui').Window.get().showDevTools();
+      console.log('view main/index.html for detail!');
+    </script>
+    
+    <style>
+      /* make border visible for debug purpose */
+      html {
+        border: red solid 1px;
+      }
+      
+      /* make everything transparent, or at least unselectable */
+      html, html * {
+        pointer-events: none;
+        
+        -webkit-user-select: none;  /* Chrome all / Safari all */
+        -moz-user-select: none;     /* Firefox all */
+        -ms-user-select: none;      /* IE 10+ */
+
+        /* No support for these yet, use at own risk */
+        -o-user-select: none;
+        user-select: none;       
+      }
+    </style>
+    
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    We are using node.js <script>document.write(process.version)</script>.
+  </body>
+</html>

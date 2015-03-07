@@ -1,0 +1,21 @@
+{
+  "name": "html_overlay",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nw": "^0.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mmis1000/node-webkit-overlay.git"
+  },
+  "scripts": {
+    "start": "nw main --disable-gpu --force-cpu-draw --enable-transparent-visuals"
+  }
+}

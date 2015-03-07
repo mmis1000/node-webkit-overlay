@@ -1,0 +1,23 @@
+{
+  "name": "word_bullet_overlay",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "HTML Overlay",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": false,
+    "width": 2560,
+    "height": 1600,
+    "position": "center",
+    "transparent": true,
+    "always-on-top": true,
+    "toolbar": false
+  },
+  "author": "",
+  "license": "MIT"
+}
