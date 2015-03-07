@@ -16,6 +16,7 @@
     "url": "git@github.com:mmis1000/node-webkit-overlay.git"
   },
   "scripts": {
-    "start": "nw main --disable-gpu --force-cpu-draw --enable-transparent-visuals"
+    "start": "nw main --disable-gpu",
+    "startLinux": "nw main --disable-gpu --force-cpu-draw --enable-transparent-visuals"
   }
 }

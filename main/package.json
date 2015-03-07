@@ -16,7 +16,8 @@
     "position": "center",
     "transparent": true,
     "always-on-top": true,
-    "toolbar": false
+    "toolbar": false,
+    "resizable": false
   },
   "author": "",
   "license": "MIT"
