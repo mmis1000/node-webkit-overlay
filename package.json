@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "nw": "^0.12.0"
+    "nw": "^0.34.5"
   },
   "repository": {
     "type": "git",
