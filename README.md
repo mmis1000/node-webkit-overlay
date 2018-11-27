@@ -1,4 +1,7 @@
 # node-webkit-overlay
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mmis1000/node-webkit-overlay.svg)](https://greenkeeper.io/)
+
 create html overlay with node-webkitt
 
 --------
